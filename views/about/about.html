@@ -1,3 +1,4 @@
+<!-- THis is About Page -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biography</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../../assets/css/custom.css">
     <link rel="stylesheet" href="../../assets/css/styles.css">
 </head>
-<body style="background-image: linear-gradient(180deg , #fdbbc7,#fff3cd); height: 100vh;">
+<body style="background-image: linear-gradient(180deg , #fdbbc7,#fff3cd); background-repeat: no-repeat; background-size: cover;">
     <div class="container mt-5">
         <div class="card" style=" background-image: linear-gradient(180deg, #ffe5ca,#fed8cf); border: 2px dashed #d8c9e6;">
+            <!-- Tab Menu -->
             <div class="card-header" style="background-image: linear-gradient(360deg, #f7cbd8,#ccc7df);">
                 <ul class="nav nav-tabs card-header-tabs">
                     <li class="nav-item">
@@ -24,12 +27,13 @@
                     </li>
                 </ul>
             </div>
-
+            <!-- Tab Contents -->
             <div class="card-body">
                 <div class="tab-content">
+                    <!-- Biography Tab -->
                     <div class="tab-pane fade show active" id="biography">
                         <h1 class="card-title text-center">Taylor Swift Biography</h1>
-                        <p class="content text-center fs-3">Taylor Swift, American singer-songwriter, moved from Pennsylvania, United States to Nashville at the tender age of fourteen to pursue a career in country music. She exploded onto the mainstream music scene in 2008 and has since gone on to be the first woman to win three Album of the Year GRAMMYs - plus another 8 in various other categories! As well as her countless musical accolades, her personal life has also sparked public interest as she has been romantically linked to Harry Styles, Jake Gyllenhaal, Calvin Harris and Tom Hiddleston. Most recently, she's been living out her Love Story dreams with British actor Joe Alwyn.</p>
+                        <p class="content text-center">Taylor Swift, American singer-songwriter, moved from Pennsylvania, United States to Nashville at the tender age of fourteen to pursue a career in country music. She exploded onto the mainstream music scene in 2008 and has since gone on to be the first woman to win three Album of the Year GRAMMYs - plus another 8 in various other categories! As well as her countless musical accolades, her personal life has also sparked public interest as she has been romantically linked to Harry Styles, Jake Gyllenhaal, Calvin Harris and Tom Hiddleston. Most recently, she's been living out her Love Story dreams with British actor Joe Alwyn.</p>
                         <div class="container mt-5">
                             <div class="row">
                                 <div class="col-md-8">
@@ -157,6 +161,7 @@
                             </div>
                         </div>
                     </div>
+                    <!-- Awards Tab -->
                     <div class="tab-pane fade show" id="awards">
                         <h1 class="card-title text-center mt-5">Taylor Swift Awards</h1>
                         <div class="container mt-5">
@@ -203,8 +208,22 @@
             </div>
         </div>
     </div>
-
-
+    <!-- Footer -->
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-muted">© 2023 Taylor Swift, Inc</span>
+          </div>
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-twitter"></i></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-instagram"></i></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-facebook"></i></a></li>
+          </ul>
+        </footer>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     
 </body>
