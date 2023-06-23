@@ -26,12 +26,6 @@
     margin-top: 150px;
 }
 
-.title {
-    text-align: center;
-    font-size: 50px;
-    font-family: papyrus;
-}
-
 .carousel-inner .carousel.item {
     height: 100px;
 }
@@ -41,10 +35,4 @@
 }
 
 
-/* @media (max-height:480px) {
-
-    .container-fluid {
-        min-height: 30vh
-    }
-} */
 
